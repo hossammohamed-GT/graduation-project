@@ -24,7 +24,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 ## How to Use This File
 
 - These owner assignments are provisional and can be changed by the team at any time.
-- The supplied roster gives specific expertise for Hossam (team leadership/full-stack development) and Melad (AI/ML); assignments for other members are a balanced starting point, not assumptions about their skills.
+- T01 and T03 are assigned to Manar Abdelrahman Mohamed (Manar). All other task-owner fields are intentionally blank for the team to fill in later.
 - Check off each relevant deliverable as it is completed and reviewed.
 - Keep statuses current: **Not started**, **In progress**, **In review**, **Complete**, or **N/A**.
 - Mark a task **Complete** only after its deliverables are saved in the listed location and reviewed by the team.
@@ -33,7 +33,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T01 — Project Scope and MVP Success Criteria
 
-- **Assigned to:** Hossam Mohamed Abdelhakim Mohamed (Eng. Hossam)
+- **Assigned to:** Manar Abdelrahman Mohamed (Manar)
 - **Status:** Not started
 - **Main location:** `docs/planning/`
 
@@ -48,7 +48,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T02 — Background Research and Related Work
 
-- **Assigned to:** Abdelrahman Ayman
+- **Assigned to:** ____________________
 - **Status:** Not started
 - **Main location:** `docs/research/`, `docs/final-report/references/`
 
@@ -63,7 +63,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T03 — Requirements and Use Cases
 
-- **Assigned to:** Manar Abdelrahman Mohamed
+- **Assigned to:** Manar Abdelrahman Mohamed (Manar)
 - **Status:** Not started
 - **Main location:** `docs/requirements/`
 
@@ -79,7 +79,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T04 — System Analysis and Analysis Diagrams
 
-- **Assigned to:** Abrar Ahmed Hassan
+- **Assigned to:** ____________________
 - **Status:** Not started
 - **Main location:** `docs/system-design/diagrams/`
 
@@ -96,7 +96,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T05 — Software Architecture and Detailed Design
 
-- **Assigned to:** Ahmed Mohamed Goda
+- **Assigned to:** ____________________
 - **Status:** Not started
 - **Main location:** `docs/system-design/`
 
@@ -112,7 +112,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T06 — User Experience and Responsive Interface Design
 
-- **Assigned to:** Khaled Nabil Ali Mohamed
+- **Assigned to:** ____________________
 - **Status:** Not started
 - **Main location:** `docs/system-design/`, `assets/figures/`
 
@@ -128,7 +128,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T07 — Learning Content and Data Management
 
-- **Assigned to:** Melad Hani Boushra Ayad (Melad)
+- **Assigned to:** ____________________
 - **Status:** Not started
 - **Main location:** `data/`, `docs/implementation/`
 
@@ -143,7 +143,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T08 — AI Tutor and Personalization
 
-- **Assigned to:** Melad Hani Boushra Ayad (Melad)
+- **Assigned to:** ____________________
 - **Status:** Not started
 - **Main location:** `src/ml/`, `docs/implementation/`
 
@@ -159,7 +159,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T09 — Responsive Learning Platform Implementation
 
-- **Assigned to:** Hossam Mohamed Abdelhakim Mohamed (Eng. Hossam) — primary; Zeinab Mohamed Ali Mohamed (Zainab) — contributor
+- **Assigned to:** ____________________
 - **Status:** Not started
 - **Main location:** `src/application/`, `src/shared/`
 
@@ -176,7 +176,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T10 — Child Safety, Privacy, and Responsible AI
 
-- **Assigned to:** Manar Abdelrahman Mohamed
+- **Assigned to:** ____________________
 - **Status:** Not started
 - **Main location:** `docs/requirements/`, `docs/testing/`
 
@@ -192,7 +192,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T11 — Testing and Validation
 
-- **Assigned to:** Ahmed Mohamed Goda — primary; Khaled Nabil Ali Mohamed — responsive-UX test support
+- **Assigned to:** ____________________
 - **Status:** Not started
 - **Main location:** `tests/`, `docs/testing/`
 
@@ -209,7 +209,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T12 — Final Report: Introduction and Related Work
 
-- **Assigned to:** Abdelrahman Ayman
+- **Assigned to:** ____________________
 - **Status:** Not started
 - **Main location:** `docs/final-report/chapters/`
 
@@ -223,7 +223,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T13 — Final Report: System Analysis and Design
 
-- **Assigned to:** Abrar Ahmed Hassan
+- **Assigned to:** ____________________
 - **Status:** Not started
 - **Main location:** `docs/final-report/chapters/`
 
@@ -237,7 +237,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T14 — Final Report: Implementation, Conclusion, and Appendices
 
-- **Assigned to:** Zeinab Mohamed Ali Mohamed (Zainab)
+- **Assigned to:** ____________________
 - **Status:** Not started
 - **Main location:** `docs/final-report/chapters/`, `docs/final-report/appendices/`
 
@@ -252,7 +252,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T15 — References, Figures, and Final Report Quality Review
 
-- **Assigned to:** Khaled Nabil Ali Mohamed
+- **Assigned to:** ____________________
 - **Status:** Not started
 - **Main location:** `docs/final-report/`, `assets/`
 
@@ -267,7 +267,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T16 — Presentation and Software Demonstration
 
-- **Assigned to:** Zeinab Mohamed Ali Mohamed (Zainab) — coordinator; all team members contribute
+- **Assigned to:** ____________________
 - **Status:** Not started
 - **Main location:** `docs/presentation/`, `assets/`
 
