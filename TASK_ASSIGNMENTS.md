@@ -1,25 +1,37 @@
 # Task Assignments
 
-## Working Project Direction
+## Project Direction and MVP Boundary
 
-**Project title:** Intelligent Learning and Growth Platform
+- **Current project title recorded by the team:** Intelligent Learning and Growth Platform.
+- **Broader concept heading in the supplied brief:** AI-Powered Child Development Ecosystem.
+- **Concept subtitle:** An Intelligent Ecosystem for Learning, Personal Growth, and Child Development.
+- **Title decision:** Keep the current title for now; confirm the official title and subtitle with the supervisor before finalizing the cover page.
 
-The task breakdown below assumes a proposed web platform that helps learners choose a learning goal, assess their current level, follow a personalized learning path, and track progress. A learner and an instructor/administrator are proposed user roles. **Confirm the target users, first learning domain, and feature scope with the supervisor before treating this direction as final.**
+The supplied brief describes a much larger child-development ecosystem. The proposed graduation-project MVP is **software-only** and starts with one responsive web application for the **English Language Learning System**, for one age band chosen with the supervisor. It should work in common mobile, tablet, and desktop browsers; do not build separate native apps for every device in the MVP.
+
+### Proposed MVP features
+
+- [ ] Choose one initial age band and a small set of English-learning activities.
+- [ ] Provide a minimal learner profile and starting-level assessment.
+- [ ] Deliver selected vocabulary/grammar or other approved language activities.
+- [ ] Provide an age-appropriate AI tutor using an existing model/service.
+- [ ] Suggest a simple next activity or short learning plan using assessment and progress.
+- [ ] Track completed activities and basic learning progress.
+- [ ] Include a basic parent/guardian progress summary only if approved and time allows.
+
+**Not implementation commitments for this project:** hardware, a robot, a Smart Mirror, firmware, camera/voice interfaces, full academic curriculum, all four development pillars, all ages 6–18, separate native apps, a 24/7 companion, a full parent dashboard, and training/fine-tuning a large language model. These may be discussed as long-term vision or future work only.
 
 ## How to Use This File
 
-- Assign one primary owner to each task and add contributors if needed.
+- These owner assignments are provisional and can be changed by the team at any time.
+- The supplied roster gives specific expertise for Hossam (team leadership/full-stack development) and Melad (AI/ML); assignments for other members are a balanced starting point, not assumptions about their skills.
 - Check off each relevant deliverable as it is completed and reviewed.
-- If an optional hardware or firmware task is out of scope, set its status to **N/A** and record the supervisor-approved reason.
+- Keep statuses current: **Not started**, **In progress**, **In review**, **Complete**, or **N/A**.
 - Mark a task **Complete** only after its deliverables are saved in the listed location and reviewed by the team.
-
-**Status values:** Not started · In progress · In review · Complete · N/A
-
-**Assignment note:** These are provisional, editable assignments. The supplied roster identifies Hossam as the team leader/full-stack developer and Melad as the AI/ML engineer; assignments for the other members are a balanced starting point, not assumptions about their skills.
 
 ---
 
-## T01 — Project Scope and Success Criteria
+## T01 — Project Scope and MVP Success Criteria
 
 - **Assigned to:** Hossam Mohamed Abdelhakim Mohamed (Eng. Hossam)
 - **Status:** Not started
@@ -27,12 +39,12 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ### Deliverables
 
-- [ ] Describe the problem the platform will solve and who experiences it.
-- [ ] Choose and justify the initial learner group and one manageable learning domain for the first version.
-- [ ] List the project goals and measurable success criteria.
-- [ ] Define what is in scope and out of scope for the first version.
-- [ ] Identify stakeholders, assumptions, constraints, risks, and dependencies.
-- [ ] Review and record supervisor approval in `docs/planning/project-charter.md`.
+- [ ] Confirm the official project title/subtitle and the exact project problem with the supervisor.
+- [ ] Select one target age band or school stage for the first version; do not scope all ages 6–18 at once.
+- [ ] Confirm that the English Language Learning System is the first subsystem to deliver.
+- [ ] Select a small, achievable set of learning activities and separate MVP features from stretch goals and future vision.
+- [ ] Define measurable project objectives, success criteria, constraints, assumptions, and risks.
+- [ ] Record the approved decisions in `docs/planning/project-charter.md` and `docs/planning/project-overview.md`.
 
 ## T02 — Background Research and Related Work
 
@@ -43,10 +55,11 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 ### Deliverables
 
 - [ ] Record the research question, search terms, and source-selection criteria.
-- [ ] Find reliable sources about personalized learning, learning platforms, and recommendation methods relevant to the approved scope.
-- [ ] Compare relevant existing platforms or projects: target users, main features, personalization approach, and limitations.
-- [ ] Identify the gap or specific need the proposed project addresses.
-- [ ] Summarize the findings in `docs/research/literature-review.md` and provide complete, traceable citations.
+- [ ] Find reliable sources about child-centered language learning, adaptive/personalized learning, and AI tutoring relevant to the approved age band.
+- [ ] Compare a manageable set of existing language-learning or tutoring platforms: users, learning features, personalization, safety, and limitations.
+- [ ] Review feasible AI approaches for the MVP, such as prompting an existing model and optionally retrieving from trusted learning material.
+- [ ] Identify the specific gap the project will address; support claims with traceable citations.
+- [ ] Summarize the research in `docs/research/literature-review.md` for Chapter 2.
 
 ## T03 — Requirements and Use Cases
 
@@ -56,13 +69,13 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ### Deliverables
 
-- [ ] **Functional requirements:** Write testable, uniquely identified requirements (FR-001, FR-002, ...) for the in-scope features. Consider account/profile setup, choosing a learning goal, a starting-level assessment, browsing learning content, receiving recommendations, completing learning activities or quizzes, viewing progress, and instructor/administrator content management. Include only features approved for the first version.
-- [ ] **Non-functional requirements:** Define measurable expectations for usability, accessibility, privacy, security, performance, reliability, and compatibility where relevant.
-- [ ] **User roles and actors:** Define the learner and any instructor/administrator roles, including their goals and permissions.
-- [ ] **Use cases:** Document each in-scope user goal with its actor, preconditions, trigger, main steps, alternative/error steps, postconditions, and related requirement IDs.
-- [ ] **Priorities and acceptance criteria:** Mark requirements by priority and state how each important requirement will be verified.
-- [ ] **Traceability:** Link project objectives to requirements and planned tests in `docs/requirements/requirements.md` and `docs/requirements/use-cases.md`.
-- [ ] Review the requirements with the team and supervisor; record unresolved questions instead of guessing.
+- [ ] **Functional requirements:** Define testable, uniquely identified requirements for the approved MVP: learner profile, goal/level, starting assessment, selected English activities, AI tutor, next-activity suggestion, and progress tracking. Include a parent/guardian summary only if approved.
+- [ ] **Non-functional requirements:** Define age-appropriate interaction, privacy, security, accessibility, usability, responsive behavior, performance, and reliability expectations.
+- [ ] **User roles:** Define the child learner and any approved parent/guardian or content-administrator role, including access permissions.
+- [ ] **Use cases:** Document onboarding, assessment, completing an activity, asking the AI tutor for help, receiving a recommendation, and viewing progress; include preconditions, steps, alternatives, and outcomes.
+- [ ] **Acceptance criteria and priorities:** Set a verifiable acceptance condition and priority for each MVP requirement.
+- [ ] **Traceability:** Link objectives to requirements and planned test cases in `docs/requirements/requirements.md` and `docs/requirements/use-cases.md`.
+- [ ] Review requirements with the team and supervisor; record unresolved decisions rather than assuming features.
 
 ## T04 — System Analysis and Analysis Diagrams
 
@@ -72,16 +85,16 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ### Deliverables
 
-- [ ] Create a system-context diagram showing the platform boundary, users, and external services or systems.
-- [ ] Create a functional decomposition or feature diagram for the approved platform scope.
-- [ ] Create a workflow or flowchart for the learner journey from goal selection through progress review.
-- [ ] Create data-flow diagrams for important activities, such as assessment and recommendation, with deeper process detail where useful.
-- [ ] Create a use-case diagram that matches the written use cases and approved actors.
-- [ ] Create sequence diagrams for the most important scenarios, such as taking an assessment and receiving a recommendation.
-- [ ] Add a short explanation, caption, and source note for each diagram; keep terminology consistent with the requirements.
-- [ ] Save editable diagram sources in `docs/system-design/diagrams/` and report-ready exports in `assets/diagrams/`.
+- [ ] Create a system-context diagram for the software platform and its approved users/services.
+- [ ] Create a functional decomposition for the MVP features.
+- [ ] Create a learner workflow from onboarding and assessment through learning activity and progress review.
+- [ ] Create data-flow diagrams for the assessment, tutor request, recommendation, and progress-update flows as needed.
+- [ ] Create a use-case diagram matching the approved actors and written use cases.
+- [ ] Create sequence diagrams for one or two key software scenarios, such as an AI-tutor interaction and a personalized next-step recommendation.
+- [ ] Explain, caption, and cross-check every diagram against the requirements; do not create hardware or robot diagrams.
+- [ ] Save editable sources in `docs/system-design/diagrams/` and report-ready exports in `assets/diagrams/`.
 
-## T05 — System Architecture and Detailed Design
+## T05 — Software Architecture and Detailed Design
 
 - **Assigned to:** Ahmed Mohamed Goda
 - **Status:** Not started
@@ -89,29 +102,31 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ### Deliverables
 
-- [ ] Draw and explain the high-level architecture and the responsibility of each component.
-- [ ] Describe the proposed application, server/API, database, and recommendation component only if each is in the approved design.
-- [ ] Design the main data entities and their relationships, such as users, goals, learning content, assessments, attempts, recommendations, and progress, as applicable.
-- [ ] Document key interfaces, API operations, data flow, and integration points.
-- [ ] Prepare basic user-interface wireframes for the agreed learner and administrator workflows.
-- [ ] Record technology and design decisions with alternatives considered and reasons for the selected approach.
-- [ ] Address relevant privacy, security, accessibility, and safety considerations and link design elements to requirement IDs.
+- [ ] Design a high-level software architecture for one responsive web application.
+- [ ] Define the roles of the user interface, application/API services, learning-content store, progress data, and AI/model integration where applicable.
+- [ ] Design a minimal data model for learner profile, goals/level, activities, assessment results, recommendations, and progress.
+- [ ] Document software interfaces, data flow, and authentication/access boundaries.
+- [ ] Record the proposed technology choices and alternatives; avoid selecting multiple native clients without approval.
+- [ ] Address privacy, child safety, accessibility, and model/service failure behavior in the design.
+- [ ] Keep the design linked to approved requirement IDs.
 
-## T06 — Hardware and Electronics Design (Optional)
+## T06 — User Experience and Responsive Interface Design
 
-- **Assigned to:** Khaled Nabil Ali Mohamed (confirm applicability; mark N/A if no hardware is approved)
+- **Assigned to:** Khaled Nabil Ali Mohamed
 - **Status:** Not started
-- **Main location:** `hardware/`
+- **Main location:** `docs/system-design/`, `assets/figures/`
 
 ### Deliverables
 
-- [ ] First confirm whether the approved project requires a physical device or electronics.
-- [ ] If it is a software-only learning platform, mark this task **N/A** and record the approved reason; do not invent hardware work.
-- [ ] If hardware is approved, document the component choices, purpose, compatibility, cost, and bill of materials.
-- [ ] Provide the required physical design, circuit/wiring diagrams, interface details, and safety notes.
-- [ ] Keep editable design files and clear prototype evidence in the appropriate `hardware/` subfolders.
+- [ ] Create simple wireframes for learner onboarding/profile, level assessment, selected lesson/activity, AI-tutor interaction, and progress view.
+- [ ] Create a parent/guardian progress screen only if that feature is approved for the MVP.
+- [ ] Use child-appropriate wording, navigation, visual hierarchy, and feedback for the selected age band.
+- [ ] Define responsive behavior for common phone, tablet, and desktop browser widths.
+- [ ] Check readability, keyboard/touch interaction, contrast, and accessibility basics.
+- [ ] Keep the MVP to one responsive software interface; do not design hardware, a robot, or a Smart Mirror as deliverables.
+- [ ] Save wireframes and review notes in the design folder; export approved illustrations to `assets/`.
 
-## T07 — Data Collection and Data Management
+## T07 — Learning Content and Data Management
 
 - **Assigned to:** Melad Hani Boushra Ayad (Melad)
 - **Status:** Not started
@@ -119,14 +134,14 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ### Deliverables
 
-- [ ] Identify the data needed for learning content, assessments, and recommendations; distinguish content data from learner activity data.
-- [ ] Record each data source, owner, license/permission, version, and collection method.
-- [ ] Define the data schema, labels, validation rules, and any preparation or preprocessing steps.
-- [ ] Use synthetic, public, or explicitly approved and de-identified learner data; document privacy, consent, retention, and access controls.
-- [ ] If model training is in scope, document a reproducible train/validation/test split and prevent data leakage.
-- [ ] Store only permitted, appropriately sized data in Git; keep large or restricted datasets in approved external storage and document the reference.
+- [ ] Identify the small set of English learning content and assessment examples required by the approved MVP.
+- [ ] Record each content/data source, owner, license or permission, version, and intended learner level.
+- [ ] Define a simple content/data schema, labels, validation rules, and any preprocessing steps.
+- [ ] Use synthetic, public, or properly approved and de-identified learner examples; do not collect identifiable child data without institutional approval and guardian consent.
+- [ ] If model evaluation or training data is needed, document a reproducible split and avoid data leakage.
+- [ ] Keep large or restricted data outside Git and document its approved location in `data/external/`.
 
-## T08 — AI/ML Development and Evaluation (If Applicable)
+## T08 — AI Tutor and Personalization
 
 - **Assigned to:** Melad Hani Boushra Ayad (Melad)
 - **Status:** Not started
@@ -134,14 +149,15 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ### Deliverables
 
-- [ ] Define precisely what the intelligent feature recommends, what inputs it uses, and what output the learner sees.
-- [ ] Implement a simple, explainable baseline first, such as recommendations based on the learner's goal, assessment result, and progress.
-- [ ] Use a machine-learning model only if suitable, permitted data and a measurable benefit are available; document the model and its limitations.
-- [ ] Evaluate recommendations with appropriate metrics and a clear test procedure; compare against the baseline where possible.
-- [ ] Document reproducibility details, assumptions, failure cases, and safeguards against misleading or unsuitable recommendations.
-- [ ] Integrate the approved recommendation feature with the application and add tests for its inputs and outputs.
+- [ ] Define the tutor's limited MVP role, supported language-learning content, input context, and expected response format.
+- [ ] Evaluate an existing approved LLM/model or service; record language capability, cost/compute, privacy, and safety considerations.
+- [ ] Implement prompt-based tutoring first; add retrieval from a small trusted content set only if it improves the MVP.
+- [ ] Build a simple, explainable recommendation baseline using the learner's selected goal, assessment result, and progress.
+- [ ] Do not train a foundation model or attempt fine-tuning/LoRA/QLoRA unless the supervisor approves a feasible data and evaluation plan.
+- [ ] Evaluate answer relevance, explanation quality, age appropriateness, recommendation usefulness, and common failure cases with approved test data.
+- [ ] Document model/service limits, safeguards, and fallback behavior; integrate only the approved feature with the application.
 
-## T09 — Application and Software Implementation
+## T09 — Responsive Learning Platform Implementation
 
 - **Assigned to:** Hossam Mohamed Abdelhakim Mohamed (Eng. Hossam) — primary; Zeinab Mohamed Ali Mohamed (Zainab) — contributor
 - **Status:** Not started
@@ -149,45 +165,47 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ### Deliverables
 
-- [ ] Set up the application structure and document verified build/run instructions.
-- [ ] Implement the approved learner registration/profile and learning-goal workflow.
-- [ ] Implement the agreed learning-content catalog or learning-path pages.
-- [ ] Implement the starting-level assessment and learning activities or quizzes included in scope.
-- [ ] Display personalized recommendations from the approved rule-based or AI/ML component.
-- [ ] Provide a progress view showing completed activities and the learner's next step.
-- [ ] Implement instructor/administrator content-management features if they are in scope.
-- [ ] Add appropriate validation, error handling, access control, and user feedback.
-- [ ] Keep application behavior aligned with the approved requirements and add or update automated tests.
+- [ ] Set up one responsive web application and document verified local build/run instructions.
+- [ ] Implement the approved minimal learner profile and goal/level workflow.
+- [ ] Implement the starting-level assessment and only the selected English lessons or activities.
+- [ ] Integrate the approved AI tutor and next-activity recommendation component.
+- [ ] Track completed activities and display a basic learner progress view.
+- [ ] Implement a parent/guardian progress summary only if it is approved and fits the schedule.
+- [ ] Add appropriate input validation, access control, error handling, child-safe user feedback, and automated tests.
+- [ ] Verify the experience in the agreed mobile and desktop browser sizes; do not build a separate robot, Smart Mirror, or native-app client for the MVP.
 
-## T10 — Firmware and Prototype Integration (Optional)
+## T10 — Child Safety, Privacy, and Responsible AI
 
-- **Assigned to:** Khaled Nabil Ali Mohamed (confirm applicability; mark N/A if no hardware is approved)
+- **Assigned to:** Manar Abdelrahman Mohamed
 - **Status:** Not started
-- **Main location:** `src/firmware/`, `hardware/`
+- **Main location:** `docs/requirements/`, `docs/testing/`
 
 ### Deliverables
 
-- [ ] First confirm whether the approved project includes programmable hardware.
-- [ ] If it is a software-only learning platform, mark this task **N/A** and record the approved reason.
-- [ ] If applicable, implement and document the required firmware and communication interfaces.
-- [ ] Integrate the physical prototype with the application and verify the end-to-end behavior.
-- [ ] Record setup, flashing, integration, safety, and troubleshooting instructions, plus test evidence.
+- [ ] Define the minimum child data the MVP needs and avoid collecting unnecessary sensitive information.
+- [ ] Document guardian consent, access control, data retention/deletion, and test-data rules required by the institution.
+- [ ] Define age-appropriate response and content requirements for the AI tutor, including unsafe, misleading, or out-of-scope requests.
+- [ ] Make clear that the AI feature is educational support and not a replacement for a parent, teacher, or qualified professional.
+- [ ] Define review and fallback behavior when the model produces an unsuitable or uncertain answer.
+- [ ] Create privacy and safety test scenarios; use synthetic accounts unless real-user testing is formally approved.
+- [ ] Record unresolved ethical, legal, and institutional questions for supervisor review.
 
 ## T11 — Testing and Validation
 
-- **Assigned to:** Ahmed Mohamed Goda — primary; Khaled Nabil Ali Mohamed — manual-testing support
+- **Assigned to:** Ahmed Mohamed Goda — primary; Khaled Nabil Ali Mohamed — responsive-UX test support
 - **Status:** Not started
 - **Main location:** `tests/`, `docs/testing/`
 
 ### Deliverables
 
-- [ ] Create a test plan linked to requirement IDs and acceptance criteria.
-- [ ] Add unit tests for important application logic and recommendation behavior.
-- [ ] Add integration tests for the application, API, database, and recommendation component where applicable.
-- [ ] Test end-to-end learner scenarios: goal selection, assessment, recommended path, activity completion, and progress update.
-- [ ] Check usability and accessibility with an approved, ethical test approach; do not collect unnecessary personal information.
-- [ ] Record environment, steps, expected and actual results, pass/fail status, defects, retests, and evidence.
-- [ ] Summarize which objectives were met and which limitations remain.
+- [ ] Create a test plan linked to requirement IDs and MVP acceptance criteria.
+- [ ] Add unit tests for important application, assessment, progress, and recommendation logic.
+- [ ] Add integration tests for the application, data store, and AI/model interface where applicable.
+- [ ] Test learner scenarios from goal/assessment through activity completion and progress update.
+- [ ] Test responsive layouts on the agreed common browser/device-size matrix.
+- [ ] Evaluate AI-tutor responses and recommendations for relevance, age appropriateness, safety, and failure handling using approved sample data.
+- [ ] Record test environment, steps, expected/actual results, pass/fail status, defects, retests, and evidence.
+- [ ] Do not test with real children unless the institution approves the method and required guardian consent is in place.
 
 ## T12 — Final Report: Introduction and Related Work
 
@@ -197,10 +215,10 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ### Deliverables
 
-- [ ] Complete Chapter 1: project context, problem, scope and constraints, impact, methodology, objectives, definitions, and project overview.
-- [ ] Explain the specific problem and target learners; do not make unsupported claims.
-- [ ] Complete Chapter 2: background, relevant history or concepts, related platforms/projects, comparison, and project gap.
-- [ ] Add citations for factual claims and keep terminology consistent with the approved charter.
+- [ ] Complete Chapter 1 with the project context, problem, MVP scope, constraints, objectives, methodology, impact, and key terms.
+- [ ] Explain the initial target age band and English-learning focus once approved; distinguish the MVP from the long-term ecosystem vision.
+- [ ] Complete Chapter 2 with relevant child-centered learning, language-learning, AI-tutoring background, related systems, comparison, and project gap.
+- [ ] Support factual claims with reliable, traceable sources.
 - [ ] Save drafts in the Chapter 1 and Chapter 2 files and request team/supervisor review.
 
 ## T13 — Final Report: System Analysis and Design
@@ -211,10 +229,10 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ### Deliverables
 
-- [ ] Complete Chapter 3 with system requirements, actors, workflows, and relevant analysis diagrams.
-- [ ] Complete Chapter 4 with architecture, component design, data model, interfaces, and relevant wireframes or design illustrations.
-- [ ] Ensure every diagram is readable, explained in the text, captioned, and consistent with the latest system design.
-- [ ] Cross-reference requirements and design decisions where useful; cite external sources.
+- [ ] Complete Chapter 3 with approved actors, MVP requirements, use cases, learner workflow, and relevant software-analysis diagrams.
+- [ ] Complete Chapter 4 with responsive software architecture, data model, interfaces, wireframes, and AI/personalization design actually in scope.
+- [ ] Ensure each diagram is readable, explained, captioned, and consistent with the final requirements.
+- [ ] Do not include hardware, robot, or Smart Mirror implementation designs in the MVP chapters.
 - [ ] Save drafts in the Chapter 3 and Chapter 4 files and request team/supervisor review.
 
 ## T14 — Final Report: Implementation, Conclusion, and Appendices
@@ -225,28 +243,29 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ### Deliverables
 
-- [ ] Complete Chapter 5 with the verified software stack, implemented features, integration, and clear screenshots or prototype evidence.
-- [ ] Report test/evaluation results accurately and link them to the objectives and test records.
-- [ ] Complete Chapter 6 with the conclusion, achieved objectives, limitations, and realistic future work.
-- [ ] Add only relevant appendices, such as setup instructions, selected code listings, or additional test material.
-- [ ] Remove secrets, private data, unsupported claims, and unused template placeholders before review.
+- [ ] Complete Chapter 5 with the verified software stack, implemented web features, AI-tutor/personalization integration, and clear screenshots.
+- [ ] Report actual test/evaluation results and link them to project objectives and test records.
+- [ ] Complete Chapter 6 with achieved objectives, limitations, and realistic future work.
+- [ ] Treat other development pillars, robot, and Smart Mirror as future vision unless the approved scope changes.
+- [ ] Add only relevant appendices, such as setup instructions, selected code listings, or test material.
+- [ ] Remove private data, unsupported claims, and unused placeholders before review.
 
 ## T15 — References, Figures, and Final Report Quality Review
 
-- **Assigned to:** Manar Abdelrahman Mohamed
+- **Assigned to:** Khaled Nabil Ali Mohamed
 - **Status:** Not started
 - **Main location:** `docs/final-report/`, `assets/`
 
 ### Deliverables
 
-- [ ] Ensure every in-text citation has a matching reference and every listed source is used in the report.
-- [ ] Apply the citation style, report language, page layout, and formatting required by the institute.
-- [ ] Generate the final table of contents and list of figures from the finished document; update all page numbers.
-- [ ] Check chapter/section/figure numbering, captions, image readability, spelling, grammar, and consistent terminology.
-- [ ] Search for and resolve every `[TODO]`, sample name, old example, broken link, and unapproved claim.
-- [ ] Obtain a final team and supervisor review and prepare the required submission format.
+- [ ] Ensure every in-text citation has a matching reference and every listed source is used.
+- [ ] Apply the citation style, language, page layout, and formatting required by the institute.
+- [ ] Generate the final table of contents and list of figures from the finished document; update page numbers.
+- [ ] Check chapter/section/figure numbering, captions, screenshot readability, spelling, grammar, and consistent terminology.
+- [ ] Resolve every `[TODO]`, sample name, old example, broken link, or unapproved feature claim.
+- [ ] Obtain team and supervisor review and prepare the required submission format.
 
-## T16 — Presentation and Project Demonstration
+## T16 — Presentation and Software Demonstration
 
 - **Assigned to:** Zeinab Mohamed Ali Mohamed (Zainab) — coordinator; all team members contribute
 - **Status:** Not started
@@ -254,9 +273,9 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ### Deliverables
 
-- [ ] Prepare slides covering the problem, target learners, goals, solution, architecture, key features, and evaluation results.
-- [ ] Write a timed demonstration plan for the learner workflow and the intelligent recommendation feature.
-- [ ] Use a verified demo account and safe, non-sensitive sample data.
-- [ ] Prepare backup screenshots or a recording in case the live demonstration fails.
-- [ ] Divide speaking roles and rehearse the complete presentation and demonstration.
-- [ ] Ensure the presentation's claims match the implemented system and final report.
+- [ ] Prepare slides covering the child-development vision, the deliberately limited MVP, target learners, problem, solution, software architecture, and evaluation results.
+- [ ] Demonstrate the responsive English-learning workflow and the AI tutor/recommendation feature actually implemented.
+- [ ] Use a verified demo account and synthetic or otherwise approved non-sensitive sample data.
+- [ ] Prepare backup screenshots or a recording in case the live software demonstration fails.
+- [ ] Divide speaking roles among the team and rehearse the complete presentation and demonstration.
+- [ ] Ensure the presentation distinguishes completed MVP features from future ideas such as the robot, Smart Mirror, other pillars, or custom LLM training.
