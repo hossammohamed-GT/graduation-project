@@ -1,6 +1,6 @@
 # Final Report
 
-This folder contains the report draft and its supporting front matter, chapter drafts, appendices, and reference list. The current outline is based on the materials provided by the team and must be checked against the institute's latest submission guide.
+This folder contains the report draft and its supporting front matter, chapter drafts, appendices, and reference list. `report-requirements.md` consolidates the sections and checks visible in the professor-provided templates; confirm any unclear items and formatting rules with the supervisor or institute guide.
 
 ## Recommended order
 

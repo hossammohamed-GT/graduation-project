@@ -24,7 +24,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 ## How to Use This File
 
 - These owner assignments are provisional and can be changed by the team at any time.
-- T01 and T03 are assigned to Manar Abdelrahman Mohamed (Manar). All other task-owner fields are intentionally blank for the team to fill in later.
+- T01 and T03 remain assigned to Manar Abdelrahman Mohamed (Manar). The remaining 14 tasks are provisionally divided among the other seven members, with two primary tasks per person. See `team/task-breakdowns/` for each person’s detailed checklist.
 - Check off each relevant deliverable as it is completed and reviewed.
 - Keep statuses current: **Not started**, **In progress**, **In review**, **Complete**, or **N/A**.
 - Mark a task **Complete** only after its deliverables are saved in the listed location and reviewed by the team.
@@ -48,7 +48,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T02 — Background Research and Related Work
 
-- **Assigned to:** ____________________
+- **Assigned to:** Abdelrahman Ayman (Abdelrahman)
 - **Status:** Not started
 - **Main location:** `docs/research/`, `docs/final-report/references/`
 
@@ -79,7 +79,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T04 — System Analysis and Analysis Diagrams
 
-- **Assigned to:** ____________________
+- **Assigned to:** Abrar Ahmed Hassan (Abrar)
 - **Status:** Not started
 - **Main location:** `docs/system-design/diagrams/`
 
@@ -96,7 +96,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T05 — Software Architecture and Detailed Design
 
-- **Assigned to:** ____________________
+- **Assigned to:** Hossam Mohamed Abdelhakim Mohamed (Eng. Hossam)
 - **Status:** Not started
 - **Main location:** `docs/system-design/`
 
@@ -112,7 +112,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T06 — User Experience and Responsive Interface Design
 
-- **Assigned to:** ____________________
+- **Assigned to:** Khaled Nabil Ali Mohamed (Khaled)
 - **Status:** Not started
 - **Main location:** `docs/system-design/`, `assets/figures/`
 
@@ -128,7 +128,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T07 — Learning Content and Data Management
 
-- **Assigned to:** ____________________
+- **Assigned to:** Melad Hani Boushra Ayad (Melad)
 - **Status:** Not started
 - **Main location:** `data/`, `docs/implementation/`
 
@@ -143,7 +143,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T08 — AI Tutor and Personalization
 
-- **Assigned to:** ____________________
+- **Assigned to:** Melad Hani Boushra Ayad (Melad)
 - **Status:** Not started
 - **Main location:** `src/ml/`, `docs/implementation/`
 
@@ -159,7 +159,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T09 — Responsive Learning Platform Implementation
 
-- **Assigned to:** ____________________
+- **Assigned to:** Hossam Mohamed Abdelhakim Mohamed (Eng. Hossam)
 - **Status:** Not started
 - **Main location:** `src/application/`, `src/shared/`
 
@@ -176,7 +176,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T10 — Child Safety, Privacy, and Responsible AI
 
-- **Assigned to:** ____________________
+- **Assigned to:** Zeinab Mohamed Ali Mohamed (Zainab)
 - **Status:** Not started
 - **Main location:** `docs/requirements/`, `docs/testing/`
 
@@ -192,7 +192,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T11 — Testing and Validation
 
-- **Assigned to:** ____________________
+- **Assigned to:** Ahmed Mohamed Goda (Ahmed)
 - **Status:** Not started
 - **Main location:** `tests/`, `docs/testing/`
 
@@ -209,7 +209,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T12 — Final Report: Introduction and Related Work
 
-- **Assigned to:** ____________________
+- **Assigned to:** Abdelrahman Ayman (Abdelrahman)
 - **Status:** Not started
 - **Main location:** `docs/final-report/chapters/`
 
@@ -223,7 +223,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T13 — Final Report: System Analysis and Design
 
-- **Assigned to:** ____________________
+- **Assigned to:** Abrar Ahmed Hassan (Abrar)
 - **Status:** Not started
 - **Main location:** `docs/final-report/chapters/`
 
@@ -237,7 +237,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T14 — Final Report: Implementation, Conclusion, and Appendices
 
-- **Assigned to:** ____________________
+- **Assigned to:** Ahmed Mohamed Goda (Ahmed)
 - **Status:** Not started
 - **Main location:** `docs/final-report/chapters/`, `docs/final-report/appendices/`
 
@@ -250,14 +250,15 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 - [ ] Add only relevant appendices, such as setup instructions, selected code listings, or test material.
 - [ ] Remove private data, unsupported claims, and unused placeholders before review.
 
-## T15 — References, Figures, and Final Report Quality Review
+## T15 — Final Submission Requirements, References, and Quality Review
 
-- **Assigned to:** ____________________
+- **Assigned to:** Khaled Nabil Ali Mohamed (Khaled)
 - **Status:** Not started
-- **Main location:** `docs/final-report/`, `assets/`
+- **Main location:** `docs/final-report/report-requirements.md`, `docs/final-report/`, `assets/`
 
 ### Deliverables
 
+- [ ] Compile and maintain `docs/final-report/report-requirements.md` as the consolidated checklist of the professor-provided report sections and submission requirements; flag unclear items for supervisor confirmation.
 - [ ] Ensure every in-text citation has a matching reference and every listed source is used.
 - [ ] Apply the citation style, language, page layout, and formatting required by the institute.
 - [ ] Generate the final table of contents and list of figures from the finished document; update page numbers.
@@ -267,7 +268,7 @@ The supplied brief describes a much larger child-development ecosystem. The prop
 
 ## T16 — Presentation and Software Demonstration
 
-- **Assigned to:** ____________________
+- **Assigned to:** Zeinab Mohamed Ali Mohamed (Zainab) — coordinator; all team members contribute
 - **Status:** Not started
 - **Main location:** `docs/presentation/`, `assets/`
 
