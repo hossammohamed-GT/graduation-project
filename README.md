@@ -29,7 +29,7 @@ The robot, Smart Mirror, hardware, voice/camera interfaces, full academic curric
 | Path | Purpose |
 | --- | --- |
 | `TASK_ASSIGNMENTS.md` | Provisional team assignments and detailed deliverable checklists for all work packages. |
-| `team/` | Team roster and notes about handling team information. |
+| `team/` | Team roster and per-member task breakdowns. |
 | `docs/` | Planning, research, requirements, system design, implementation, testing, final report, and presentation material. |
 | `src/` | Software application, AI/ML, and shared source modules. |
 | `data/` | Dataset and learning-content organization. Do not commit private, unapproved, or very large data. |
