@@ -2,17 +2,19 @@
 
 ## Environment and prerequisites
 
-[TODO: Record supported operating systems, language/runtime versions, hardware requirements, and non-secret dependencies.]
+[TODO: Record supported operating systems, browsers, language/runtime versions, model/service requirements, and non-secret dependencies. The MVP is software-only and has no hardware requirements.]
 
 ## Component implementation summary
 
 | Component | Source path | Purpose | Requirements / design links |
 | --- | --- | --- | --- |
-| [TODO] | [TODO] | [TODO] | [TODO] |
+| Responsive web application | `src/application/` | [TODO] | [TODO] |
+| Tutor / recommendation logic | `src/ml/` or the approved application module | [TODO] | [TODO] |
+| Shared modules | `src/shared/` | [TODO] | [TODO] |
 
 ## Configuration
 
-[Describe required configuration keys and safe example values. Never paste passwords, tokens, or private keys.]
+[Describe required configuration keys and safe example values. Never paste passwords, tokens, child data, or private keys.]
 
 ## Build, run, and deployment notes
 

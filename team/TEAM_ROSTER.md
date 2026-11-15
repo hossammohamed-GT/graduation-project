@@ -4,8 +4,8 @@
 
 | Full name | Preferred name | Team role | Primary skills / notes |
 | --- | --- | --- | --- |
-| Hossam Mohamed Abdelhakim Mohamed | Hossam | Team Leader | Software engineering, full-stack development, team leadership, project planning, communication, Git/GitHub, VS Code, Google Workspace, problem solving, system architecture, and cloud deployment. GitHub: [hossam-mohamed-abd](https://github.com/hossam-mohamed-abd). LinkedIn: [profile](https://www.linkedin.com/in/hossam-mohamed-abd). |
-| Abdelrahman Ayman Abdelrahman | Abdelrahman | Team Member | Not specified in the supplied team information. |
+| Hossam Mohamed Abdelhakim Mohamed | Eng. Hossam | Team Leader | Software engineering, full-stack development, team leadership, project planning, communication, Git/GitHub, VS Code, Google Workspace, problem solving, system architecture, and cloud deployment. GitHub: [hossam-mohamed-abd](https://github.com/hossam-mohamed-abd). LinkedIn: [profile](https://www.linkedin.com/in/hossam-mohamed-abd). |
+| Abdelrahman Ayman | Abdelrahman | Team Member | Not specified in the supplied team information. |
 | Manar Abdelrahman Mohamed | Manar | Team Member | Not specified in the supplied team information. |
 | Abrar Ahmed Hassan | Abrar | Team Member | Not specified in the supplied team information. |
 | Ahmed Mohamed Goda | Ahmed | Team Member | Not specified in the supplied team information. |
@@ -16,5 +16,5 @@
 ## Notes
 
 - Confirm spelling and preferred-name choices with each member before producing the official report.
-- Add responsibilities to `TASK_ASSIGNMENTS.md` only after the team agrees on ownership.
-- Do not infer skills, qualifications, or task assignments that a member has not confirmed.
+- Treat the assignments in `TASK_ASSIGNMENTS.md` as a provisional draft until the team confirms or changes them.
+- Do not infer skills or qualifications that a member has not confirmed.

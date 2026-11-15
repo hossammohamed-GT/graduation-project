@@ -1,10 +1,9 @@
 # Source Code
 
-This folder contains implementation code. Its subfolders are optional organizational areas; use only the ones that match the approved project architecture.
+This folder contains the software implementation. Its subfolders are optional organizational areas; use only the ones that match the approved application architecture.
 
-- `application/` — user-facing application or primary software component.
-- `firmware/` — code that runs on embedded or hardware devices, if applicable.
-- `ml/` — machine-learning or data-processing code, if applicable.
-- `shared/` — reusable modules used by multiple components.
+- `application/` — responsive web application and its user-facing software features.
+- `ml/` — AI/ML, recommendation, and data-processing code where applicable.
+- `shared/` — reusable modules used by multiple software components.
 
-Add component-specific setup and test instructions. Do not commit secrets, generated binaries, build outputs, or datasets here.
+This project has no planned hardware or firmware. Add component-specific setup and test instructions. Do not commit secrets, generated binaries, build outputs, or datasets here.

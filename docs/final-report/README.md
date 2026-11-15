@@ -15,4 +15,4 @@ This folder contains the report draft and its supporting front matter, chapter d
 
 Start each chapter on a new page in the final document. Generate the contents and figure lists from final headings and captions rather than copying old page numbers. Number chapters, sections, figures, and tables consistently. Confirm the font, margins, page numbering, citation style, languages, and required export format with the supervisor; none are specified here.
 
-The original materials included example-specific helicopter/camera content and incomplete placeholders. Replace all example content with approved project content. Do not submit empty templates or example page numbers.
+These Markdown files are drafting outlines, not a completed report. Replace placeholders with project-specific, supervisor-approved content. Do not submit empty templates or copied sample page numbers.
