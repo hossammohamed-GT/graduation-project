@@ -1,0 +1,44 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JavaScript and frontend builds
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+# General generated output
+*.log
+tmp/
+temp/
+
+# Dataset payloads: keep README files, not large/raw data in Git by default
+/data/raw/*
+!/data/raw/README.md
+/data/processed/*
+!/data/processed/README.md
+/data/external/*
+!/data/external/README.md
