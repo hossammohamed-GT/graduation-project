@@ -15,11 +15,13 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 **Status values:** Not started · In progress · In review · Complete · N/A
 
+**Assignment note:** These are provisional, editable assignments. The supplied roster identifies Hossam as the team leader/full-stack developer and Melad as the AI/ML engineer; assignments for the other members are a balanced starting point, not assumptions about their skills.
+
 ---
 
 ## T01 — Project Scope and Success Criteria
 
-- **Assigned to:** ____________________
+- **Assigned to:** Hossam Mohamed Abdelhakim Mohamed (Eng. Hossam)
 - **Status:** Not started
 - **Main location:** `docs/planning/`
 
@@ -34,7 +36,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T02 — Background Research and Related Work
 
-- **Assigned to:** ____________________
+- **Assigned to:** Abdelrahman Ayman
 - **Status:** Not started
 - **Main location:** `docs/research/`, `docs/final-report/references/`
 
@@ -48,7 +50,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T03 — Requirements and Use Cases
 
-- **Assigned to:** ____________________
+- **Assigned to:** Manar Abdelrahman Mohamed
 - **Status:** Not started
 - **Main location:** `docs/requirements/`
 
@@ -64,7 +66,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T04 — System Analysis and Analysis Diagrams
 
-- **Assigned to:** ____________________
+- **Assigned to:** Abrar Ahmed Hassan
 - **Status:** Not started
 - **Main location:** `docs/system-design/diagrams/`
 
@@ -81,7 +83,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T05 — System Architecture and Detailed Design
 
-- **Assigned to:** ____________________
+- **Assigned to:** Ahmed Mohamed Goda
 - **Status:** Not started
 - **Main location:** `docs/system-design/`
 
@@ -97,7 +99,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T06 — Hardware and Electronics Design (Optional)
 
-- **Assigned to:** ____________________
+- **Assigned to:** Khaled Nabil Ali Mohamed (confirm applicability; mark N/A if no hardware is approved)
 - **Status:** Not started
 - **Main location:** `hardware/`
 
@@ -111,7 +113,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T07 — Data Collection and Data Management
 
-- **Assigned to:** ____________________
+- **Assigned to:** Melad Hani Boushra Ayad (Melad)
 - **Status:** Not started
 - **Main location:** `data/`, `docs/implementation/`
 
@@ -126,7 +128,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T08 — AI/ML Development and Evaluation (If Applicable)
 
-- **Assigned to:** ____________________
+- **Assigned to:** Melad Hani Boushra Ayad (Melad)
 - **Status:** Not started
 - **Main location:** `src/ml/`, `docs/implementation/`
 
@@ -141,7 +143,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T09 — Application and Software Implementation
 
-- **Assigned to:** ____________________
+- **Assigned to:** Hossam Mohamed Abdelhakim Mohamed (Eng. Hossam) — primary; Zeinab Mohamed Ali Mohamed (Zainab) — contributor
 - **Status:** Not started
 - **Main location:** `src/application/`, `src/shared/`
 
@@ -159,7 +161,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T10 — Firmware and Prototype Integration (Optional)
 
-- **Assigned to:** ____________________
+- **Assigned to:** Khaled Nabil Ali Mohamed (confirm applicability; mark N/A if no hardware is approved)
 - **Status:** Not started
 - **Main location:** `src/firmware/`, `hardware/`
 
@@ -173,7 +175,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T11 — Testing and Validation
 
-- **Assigned to:** ____________________
+- **Assigned to:** Ahmed Mohamed Goda — primary; Khaled Nabil Ali Mohamed — manual-testing support
 - **Status:** Not started
 - **Main location:** `tests/`, `docs/testing/`
 
@@ -189,7 +191,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T12 — Final Report: Introduction and Related Work
 
-- **Assigned to:** ____________________
+- **Assigned to:** Abdelrahman Ayman
 - **Status:** Not started
 - **Main location:** `docs/final-report/chapters/`
 
@@ -203,7 +205,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T13 — Final Report: System Analysis and Design
 
-- **Assigned to:** ____________________
+- **Assigned to:** Abrar Ahmed Hassan
 - **Status:** Not started
 - **Main location:** `docs/final-report/chapters/`
 
@@ -217,7 +219,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T14 — Final Report: Implementation, Conclusion, and Appendices
 
-- **Assigned to:** ____________________
+- **Assigned to:** Zeinab Mohamed Ali Mohamed (Zainab)
 - **Status:** Not started
 - **Main location:** `docs/final-report/chapters/`, `docs/final-report/appendices/`
 
@@ -231,7 +233,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T15 — References, Figures, and Final Report Quality Review
 
-- **Assigned to:** ____________________
+- **Assigned to:** Manar Abdelrahman Mohamed
 - **Status:** Not started
 - **Main location:** `docs/final-report/`, `assets/`
 
@@ -246,7 +248,7 @@ The task breakdown below assumes a proposed web platform that helps learners cho
 
 ## T16 — Presentation and Project Demonstration
 
-- **Assigned to:** ____________________
+- **Assigned to:** Zeinab Mohamed Ali Mohamed (Zainab) — coordinator; all team members contribute
 - **Status:** Not started
 - **Main location:** `docs/presentation/`, `assets/`
 
