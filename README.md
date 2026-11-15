@@ -1,6 +1,6 @@
-# Graduation Project Workspace
+# Intelligent Learning and Growth Platform
 
-This repository is the shared workspace for planning, building, testing, and documenting the graduation project. The project name and final technical scope have not yet been recorded; add them to the project charter before implementation begins.
+This repository is the shared workspace for planning, building, testing, and documenting the graduation project. The approved project title is **Intelligent Learning and Growth Platform**. The detailed problem, target users, technical scope, and architecture still need to be confirmed in the project charter before implementation begins.
 
 ## How to use this repository
 
@@ -14,7 +14,7 @@ This repository is the shared workspace for planning, building, testing, and doc
 
 | Path | Purpose |
 | --- | --- |
-| `TASK_ASSIGNMENTS.md` | Separate, editable work breakdown with blank owner fields. |
+| `TASK_ASSIGNMENTS.md` | Project-specific task breakdown with deliverable checklists and blank owner fields. |
 | `team/` | Team roster and notes about handling team information. |
 | `docs/` | Planning, research, requirements, design notes, testing documents, final-report drafts, and presentation materials. |
 | `src/` | Project implementation source code, organized by application, firmware, machine learning, and shared modules as applicable. |

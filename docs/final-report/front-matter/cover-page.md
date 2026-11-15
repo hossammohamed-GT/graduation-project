@@ -1,7 +1,7 @@
 # Cover Page Content Checklist
 
 - **Institute / department:** [TODO]
-- **Project title:** [TODO]
+- **Project title:** Intelligent Learning and Growth Platform
 - **Course or project stage:** [TODO]
 - **Supervisor:** [TODO]
 - **Team member names:** [TODO]

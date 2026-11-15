@@ -4,7 +4,7 @@
 
 ## Project identity
 
-- **Project title:** [TODO]
+- **Project title:** Intelligent Learning and Growth Platform
 - **Team:** [TODO]
 - **Supervisor:** [TODO]
 - **Last updated:** [TODO]
